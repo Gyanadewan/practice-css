@@ -12,11 +12,8 @@
     height: 100px;
     border: 1px solid blue;
 }
-p{
-   font-size: 10px;
-}
 
-h3{
+.box h3{
     font-weight:bold;
     color: red;
 }
@@ -25,4 +22,19 @@ h3{
     width: 300px;
     height: 200px;
     margin-top: 5px;
+}
+
+article h3  {
+   color: blue;
+   background: yellow;
+   text-align: center;
+   padding: 4px;
+   font-weight: 800;
+}
+
+.articleP{
+    background: blue;
+    color: white;
+    font-size: 16px;
+    padding: 6px;
 }
