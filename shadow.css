@@ -1,0 +1,13 @@
+#container{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-color: aqua;
+    box-shadow: 2px 5px 10px 1px rgb(237, 138, 199);
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+} 
+
