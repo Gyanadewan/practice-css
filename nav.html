@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+<style>
+       .ul-contain {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+       }
+      .nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+        width: 800px;
+        margin: 0 auto;
+      }
+      .logo-tag{
+            color: palevioletred;
+            font-weight: bold;
+      }
+
+     .main-contianer {
+      background-color: beige;
+        width: 800px;
+        margin: 0 auto;
+       display: flex;
+      }
+      .img{
+         width: 300px;
+         height:300px;
+         margin: 10px 20px;
+         border-radius: 10px;
+      }
+
+      .img:hover{
+        border: 2px solid red;
+      }
+       .main-text-contain {
+        text-align: center;
+        margin-top: 40px;
+       }
+       .main-text-contain:hover{
+        color: rgb(132, 132, 206);
+       }
+</style>
+<body>
+     <nav class="nav-container">
+          <div>
+             <h1 class="logo-tag">Logo</h1>
+          </div>
+            <ul class="ul-contain">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+     </nav>
+        <section class="main-contianer">
+             <div class="main-text-contain">
+                <h1>Hello this is website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Maiores nostrum eos 
+                     mollitia molestias ex quod sed alias 
+                     odio enim fuga expedita, exercitationem 
+                     maxime animi molestiae recusandae consequatur!
+                     Quibusdam, tempora eligendi.</p>
+             </div>
+             <div>
+                <img class="img" src="images/bg.png" alt="">
+             </div>
+        </section>
+</body>
+</html>
