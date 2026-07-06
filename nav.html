@@ -47,6 +47,47 @@
        .main-text-contain:hover{
         color: rgb(132, 132, 206);
        }
+         
+
+   .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: aqua;
+    width: 500x;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+   box-shadow: 3px 3px 3px 3px rgb(243, 151, 198);
+   }
+    
+   .input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   }
+   .input-section h3{
+      color: blue;
+      border-bottom: 2px solid blueviolet;
+   }
+   .input-container div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container span {
+    width: 70px;
+}
+
+.input-container button {
+    background-color: rgb(226, 43, 174) ;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
 </style>
 <body>
      <nav class="nav-container">
@@ -54,7 +95,7 @@
              <h1 class="logo-tag">Logo</h1>
           </div>
             <ul class="ul-contain">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="ind.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -75,5 +116,26 @@
                 <img class="img" src="images/bg.png" alt="">
              </div>
         </section>
+
+      <section class="input-section">
+               
+             <div class="input-container">
+               <h3>Registration form</h3>
+                <div>
+                     <span>Name:</span>
+                     <input type="type" placeholder="name">
+                </div>
+                <div>
+                     <span>Email:</span>
+                     <input type="email" placeholder="email address">
+                </div>
+              <div>
+                   <span>PassWord:</span>
+                   <input type="password" placeholder="password">
+              </div>
+               <button>Create form</button>
+             </div>
+             
+      </section>
 </body>
 </html>
