@@ -56,7 +56,7 @@
     align-items: center;
     gap: 10px;
     background-color: aqua;
-    width: 500x;
+    width: 500px;
     height: 200px;
     padding: 20px;
     border-radius: 10px;
@@ -88,6 +88,29 @@
     padding: 6px;
     color: white;
 }
+
+.card{
+     width: 300px;
+     height: 300px;
+     background-color: purple;
+     padding: 30px;
+     margin: 10px;
+     color: antiquewhite;
+     border-radius: 10px;
+}
+.card h1 {
+     color: coral;
+     background-color: green;
+     width: 100px;
+     height: 50px;
+     padding: 2px 5px;
+     box-shadow: 3px 2px 5px 2px yellow;
+}
+.card-section{
+     display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 20px;
+}
 </style>
 <body>
      <nav class="nav-container">
@@ -104,12 +127,9 @@
      </nav>
         <section class="main-contianer">
              <div class="main-text-contain">
-                <h1>Hello this is website</h1>
+                <h1 >Hello this is website</h1>
                 <p>Lorem ipsum dolor sit amet consectetur,
                      adipisicing elit. Maiores nostrum eos 
-                     mollitia molestias ex quod sed alias 
-                     odio enim fuga expedita, exercitationem 
-                     maxime animi molestiae recusandae consequatur!
                      Quibusdam, tempora eligendi.</p>
              </div>
              <div>
@@ -136,6 +156,29 @@
                <button>Create form</button>
              </div>
              
+      </section>
+
+      <section class="card-section">
+         <div class="card">
+                <h1>Card-1</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime laborum illum ab doloremque dolorum distinctio maiores molestias, sit rerum numquam corporis placeat ad similique deleniti ipsa et voluptate officia officiis.
+                Est, sunt deleniti delectus laboriosam repellendus dolor labore nobis reiciendis quasi exercitationem, autem id perspiciatis eveniet mollitia recusandae vitae obcaecati harum ipsum voluptates totam rerum eaque quod! Minus, enim corporis!</p>
+         </div>
+         <div class="card">
+                <h1>Card-2</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime laborum illum ab doloremque dolorum distinctio maiores molestias, sit rerum numquam corporis placeat ad similique deleniti ipsa et voluptate officia officiis.
+                Est, sunt deleniti delectus laboriosam repellendus dolor labore nobis reiciendis quasi exercitationem, autem id perspiciatis eveniet mollitia recusandae vitae obcaecati harum ipsum voluptates totam rerum eaque quod! Minus, enim corporis!</p>
+         </div>
+         <div class="card">
+                <h1>Card-3</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime laborum illum ab doloremque dolorum distinctio maiores molestias, sit rerum numquam corporis placeat ad similique deleniti ipsa et voluptate officia officiis.
+                Est, sunt deleniti delectus laboriosam repellendus dolor labore nobis reiciendis quasi exercitationem, autem id perspiciatis eveniet mollitia recusandae vitae obcaecati harum ipsum voluptates totam rerum eaque quod! Minus, enim corporis!</p>
+         </div>
+         <div class="card">
+                <h1>Card-4</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime laborum illum ab doloremque dolorum distinctio maiores molestias, sit rerum numquam corporis placeat ad similique deleniti ipsa et voluptate officia officiis.
+                Est, sunt deleniti delectus laboriosam repellendus dolor labore nobis reiciendis quasi exercitationem, autem id perspiciatis eveniet mollitia recusandae vitae obcaecati harum ipsum voluptates totam rerum eaque quod! Minus, enim corporis!</p>
+         </div>
       </section>
 </body>
 </html>
